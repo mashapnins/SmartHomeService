@@ -11,3 +11,15 @@ class HomeManager:
 
     def get_devices(self):
         return self.devices
+
+    def remove_device(self, device_id):
+        # Заглушка для удаления устройства по его идентификатору
+        pass
+
+    def execute_action(self, device_id, action):
+        # Заглушка для выполнения действия на устройстве
+        pass
+
+    def log_action(self, action):
+        # Заглушка для логирования действий
+        pass

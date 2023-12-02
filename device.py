@@ -6,3 +6,6 @@ class Device:
 
     def change_status(self, new_status):
         self.status = new_status
+
+    def get_status(self):
+        return self.status
