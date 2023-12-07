@@ -2,11 +2,11 @@ from home_manager import HomeManager
 
 def main():
     home_manager = HomeManager()
-    
+
     # Добавляем устройства для тестирования
     device1 = home_manager.add_device(1, "Smart Light")
     device2 = home_manager.add_device(2, "Smart Thermostat")
-
+    
     # Изменяем статус устройств
     device1.change_status("on")
     device2.change_status("off")
