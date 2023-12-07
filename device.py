@@ -23,14 +23,14 @@ class Device:
         """
         Включает устройство.
         """
-        self.is_on = True
+        self.status = 'on'
         print(f"{self.name} теперь включено")
 
     def turn_off(self):
         """
         Выключает устройство.
         """
-        self.is_on = False
+        self.status = 'off'
         print(f"{self.name} теперь выключено")
     
     def change_status(self, new_status):
